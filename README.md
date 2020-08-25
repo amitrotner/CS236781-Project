@@ -4,7 +4,7 @@
 
 ## Introduction ##
 
-This is a Pytorch implementation of our Deep Learning on Computational Accelerators course project.
+This is a Pytorch implementation of our Deep Learning on Computational Accelerators course project detailed in `Report.pdf`
 
 Amit Rotner and Shaked Doron.
 
