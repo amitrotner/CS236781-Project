@@ -4,15 +4,43 @@
 
 ## Introduction ##
 
-This is a Pytorch implementation of our Deep Learning on Computational Accelerators course project detailed in `Report.pdf`
+This is a PyTorch implementation of our Deep Learning on Computational Accelerators course project detailed in `Report.pdf`
 
-Amit Rotner and Shaked Doron.
+by:
+| Name            |E-mail                              |
+| :-------------  |:---------------                    |
+| Amit Rotner     |amitrotner@campus.technion.ac.il    |
+| Shaked Doron    |shaked.doron@campus.technion.ac.il  |
 
 
 ## Installation ##
 
-To meet project requirements, run the following command in your terminal:
-`conda env create -f environment.yml`
+1. Clone this repository.
+2. Install and activate the environment using the following commands:
+```
+conda env create -f environment.yml
+conda activate final_project
+```
+
+## Project Structure ##
+    .
+    ├── cs236781                                        # Test files (alternatively `spec` or `tests`)
+    │   ├── plot.py                                     # Helper function to plot experiments results 
+    │   └── unit.py                                     # Helper Classes to represent the result of fitting a model
+    ├── ptb.py                                          # The implementation of the CNN network for the PTB dataset
+    ├── mit_bih.py                                      # The implementation of the CNN network for the MIT-BIH dataset
+    ├── autoencoder.py                                  # The implementation of the Autoencoder network
+    ├── clustering.py                                   # The implementation of the clustering layer, kmeans, target distribution and clustering predictions calculation 
+    ├── utils.py                                        # Helper class implementing metrics for clustering evaluation
+    ├── training.py                                     # The implementation of the model training and testing functions
+    ├── PTB classification with CNN.ipynb               # A Jupyter notebook to perform and display PTB classification using the CNN network
+    ├── MIT-BIH classification with CNN.ipynb           # A Jupyter notebook to perform and display MIT-BIH classification using the CNN network
+    ├── DCEC ptb.ipynb                                  # A Jupyter notebook to perform and display PTB classification using the DCEC network
+    ├── DCEC mit-bih.ipynb                              # A Jupyter notebook to perform and display MIT-BIH classification using the DCEC network
+    ├── Experiments.ipynb                               # A Jupyter notebook to perform DCEC experiments varying on d.
+    ├── environment.yml
+    └── README.md
+
 
 ## Reproducing results ##
 
