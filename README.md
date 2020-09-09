@@ -9,10 +9,10 @@ This is a Pytorch implementation of our Deep Learning on Computational Accelerat
 Amit Rotner and Shaked Doron.
 
 
-## Requirement ##
+## Installation ##
 
-* Python >= 2.7
-* [Pytorch](http://pytorch.org/) >= v0.2.0
+To meet project requirements, run the following command in your terminal:
+`conda env create -f environment.yml`
 
 ## Reproducing results ##
 
