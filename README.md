@@ -38,6 +38,7 @@ conda activate final_project
     ├── DCEC ptb.ipynb                                  # A Jupyter notebook to perform and display PTB classification using the DCEC network
     ├── DCEC mit-bih.ipynb                              # A Jupyter notebook to perform and display MIT-BIH classification using the DCEC network
     ├── Experiments.ipynb                               # A Jupyter notebook to perform DCEC experiments varying on d.
+    ├── Report.pdf                                      # Project report
     ├── environment.yml
     └── README.md
 
