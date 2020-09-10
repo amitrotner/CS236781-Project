@@ -45,7 +45,8 @@ conda activate final_project
 
 ## Reproducing results ##
 
-To reproduce our results, simply run the relevant Jupyter notebook.
+1. Download datasets from: https://drive.google.com/drive/folders/1fefvwQfyTafnq0rybXCWT9wmSElzP58A?usp=sharing and place it in ./data/ folder.
+2. Run the relevant Jupyter notebook.
 
 
 
