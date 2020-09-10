@@ -24,7 +24,7 @@ conda activate final_project
 
 ## Project Structure ##
     .
-    ├── cs236781                                        # Test files (alternatively `spec` or `tests`)
+    ├── cs236781                                        # Helper files
     │   ├── plot.py                                     # Helper function to plot experiments results 
     │   └── unit.py                                     # Helper Classes to represent the result of fitting a model
     ├── ptb.py                                          # The implementation of the CNN network for the PTB dataset
