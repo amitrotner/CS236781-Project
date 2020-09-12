@@ -26,18 +26,18 @@ conda activate final_project
     .
     ├── cs236781                                        # Helper files
     │   ├── plot.py                                     # Helper function to plot experiments results 
-    │   └── unit.py                                     # Helper Classes to represent the result of fitting a model
+    │   └── unit.py                                     # Helper classes to represent the result of fitting a model
     ├── ptb.py                                          # The implementation of the CNN network for the PTB dataset
     ├── mit_bih.py                                      # The implementation of the CNN network for the MIT-BIH dataset
     ├── autoencoder.py                                  # The implementation of the Autoencoder network
-    ├── clustering.py                                   # The implementation of the clustering layer, kmeans, target distribution and clustering predictions calculation 
+    ├── clustering.py                                   # The implementation of the clustering layer, kmeans, target distribution, and clustering predictions calculation 
     ├── utils.py                                        # Helper class implementing metrics for clustering evaluation
     ├── training.py                                     # The implementation of the model training and testing functions
     ├── PTB classification with CNN.ipynb               # A Jupyter notebook to perform and display PTB classification using the CNN network
     ├── MIT-BIH classification with CNN.ipynb           # A Jupyter notebook to perform and display MIT-BIH classification using the CNN network
     ├── DCEC ptb.ipynb                                  # A Jupyter notebook to perform and display PTB classification using the DCEC network
     ├── DCEC mit-bih.ipynb                              # A Jupyter notebook to perform and display MIT-BIH classification using the DCEC network
-    ├── Experiments.ipynb                               # A Jupyter notebook to perform DCEC experiments varying on d.
+    ├── Experiments.ipynb                               # A Jupyter notebook to perform DCEC experiments varying on d
     ├── Report.pdf                                      # Project report
     ├── environment.yml
     └── README.md
