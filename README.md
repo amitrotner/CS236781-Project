@@ -24,9 +24,10 @@ conda activate final_project
 
 ## Project Structure ##
     .
-    ├── cs236781                                        # Helper files
+    ├── cs236781/                                       # Helper files
     │   ├── plot.py                                     # Helper function to plot experiments results 
     │   └── unit.py                                     # Helper classes to represent the result of fitting a model
+    ├── data/                                           # Dataset directory
     ├── ptb.py                                          # The implementation of the CNN network for the PTB dataset
     ├── mit_bih.py                                      # The implementation of the CNN network for the MIT-BIH dataset
     ├── autoencoder.py                                  # The implementation of the Autoencoder network
@@ -40,6 +41,7 @@ conda activate final_project
     ├── Experiments.ipynb                               # A Jupyter notebook to perform DCEC experiments varying on d
     ├── Report.pdf                                      # Project report
     ├── environment.yml
+    ├── LICENSE
     └── README.md
 
 
