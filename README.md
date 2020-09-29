@@ -1,7 +1,5 @@
 # APPLYING DEEP-CLUSTERING APPROACHES TO CREATE MEANINGFUL REPRESENTATIONS OF ECG BEAT MORPHOLOGY #
 
-## This project is currently ongoing - more results to come ## 
-
 ## Introduction ##
 
 This is a PyTorch implementation of our Deep Learning on Computational Accelerators course project detailed in `Report.pdf`
